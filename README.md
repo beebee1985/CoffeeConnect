@@ -150,7 +150,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **beebee1985** - rukkybb85@gmail.com
 
-Project Link: [https://github.com/beebee1985/CoffeeConnect2](https://github.com/beebee1985/CoffeeConnect2)
+Project Link: [https://github.com/beebee1985/CoffeeConnect](https://github.com/beebee1985/CoffeeConnect)
 
 ---
 

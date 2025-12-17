@@ -2,8 +2,6 @@
 //  CoffeeConnectUITestsLaunchTests.swift
 //  CoffeeConnectUITests
 //
-//  Created by George Muteti on 15/12/2025.
-//
 
 import XCTest
 

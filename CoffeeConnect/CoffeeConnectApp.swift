@@ -3,11 +3,13 @@ import SwiftUI   // ✅ This line is missing
 @main
 struct CoffeeConnectApp: App {
     @StateObject private var cartManager = CartManager()
+    @StateObject private var rewardsManager = RewardsManager()
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
                 .environmentObject(cartManager)
+                .environmentObject(rewardsManager)
         }
     }
 }

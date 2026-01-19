@@ -48,7 +48,7 @@ struct CheckoutView: View {
             Button("Place Order") {
                 let pointsEarned = Int(NSDecimalNumber(decimal: summary.total).intValue)
                 rewards.add(points: pointsEarned)
-                cart.clear()
+                cart.placeOrder()
                 dismiss()
             }
             .buttonStyle(.borderedProminent)

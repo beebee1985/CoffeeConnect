@@ -21,11 +21,8 @@ struct CartView: View {
                         .font(.headline)
                         .padding()
 
-                    Button(action: {
-                        cartManager.placeOrder()
-                        showConfirmation = true
-                    }) {
-                        Text("Place Order")
+                    NavigationLink(destination: CheckoutView()) {
+                        Text("Checkout")
                             .font(.headline)
                             .frame(maxWidth: .infinity)
                             .padding()
@@ -34,9 +31,6 @@ struct CartView: View {
                             .cornerRadius(8)
                     }
                     .padding()
-                    .alert("Order placed successfully!", isPresented: $showConfirmation) {
-                        Button("OK", role: .cancel) { }
-                    }
                 }
             }
             .navigationTitle("Cart")

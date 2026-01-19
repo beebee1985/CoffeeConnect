@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct ContentView: View {
+struct MainTabView: View {
     var body: some View {
         TabView {
             MenuView()
@@ -11,16 +11,6 @@ struct ContentView: View {
             CartView()
                 .tabItem {
                     Label("Cart", systemImage: "cart")
-                }
-
-            OrderHistoryView()
-                .tabItem {
-                    Label("History", systemImage: "clock")
-                }
-
-            FavoritesView()
-                .tabItem {
-                    Label("Favorites", systemImage: "heart")
                 }
 
             ProfileView()
